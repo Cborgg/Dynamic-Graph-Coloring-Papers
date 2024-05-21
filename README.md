@@ -17,3 +17,13 @@ The authors’ two main contributions in this paper are:
 New Algorithm for General Graphs: They present a new algorithm that significantly improves upon the trade-off between the number of colors and recolorings per update step in dynamic graph coloring. For any given parameter β > 0, their algorithm achieves a coloring with Oˆ(C/β log^2 n) colors and only O(β) recolorings per update, where C is the number of colors used by a static algorithm and n is the number of vertices.
 
 Deterministic Algorithm for Sparse Graphs: They introduce a deterministic algorithm for uniformly sparse graphs, which utilizes low out-degree orientations and a new data structure to maintain an O(α log^2 n)-coloring in amortized O(1) time for graphs of arboricity α, where α is a measure of the graph’s sparsity.
+
+3. Dynamic Graph Coloring (2017) - https://arxiv.org/pdf/1708.09080
+
+Here are the main findings of this paper:
+
+Dynamic Coloring Algorithms: The paper presents two algorithms for maintaining a proper coloring of a graph during insertions and deletions of vertices and edges, offering different trade-offs between the number of colors used and the number of vertex recolorings required.
+
+Trade-off Balance: For a given parameter ( d ), the first algorithm maintains an ( O(CdN^{1/d}) )-coloring with at most ( O(d) ) recolorings per update, while the second algorithm maintains an ( O(Cd) )-coloring with ( O(dN^{1/d}) ) recolorings per update.
+
+Lower Bound: A lower bound is established, demonstrating that any algorithm maintaining a ( c )-coloring of a 2-colorable graph must recolor at least (Omega(N^{2/c(c-1)})) vertices per update for any constant c>=2
