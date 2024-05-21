@@ -1,15 +1,17 @@
 # Dynamic-Graph-Coloring-Papers
 Contains various references to Dynamic Graph Coloring research papers
 
-1. Effective and Efficient Dynamic Graph Coloring (2017) - http://www.vldb.org/pvldb/vol11/p338-yuan.pdf
+**1. Effective and Efficient Dynamic Graph Coloring (2017) - http://www.vldb.org/pvldb/vol11/p338-yuan.pdf**
 
 The main contributions are as follows:
+
 Global Optimization: The authors propose a new idea for updating graph coloring by considering global optimization, addressing the drawbacks of existing local update algorithms
+
 Efficient Algorithm: They introduce an efficient color-propagation based algorithm with bounded time complexity, which explores a limited number of vertices for updates
 
- We design a color-propagation based algorithm which only explores the vertices within the 2-hop neighbors of the update-related and color-changed vertices. We then propose a novel color index to maintain some summary color information and, thus, bound the explored vertices within the neighbors of these vertices. Moreover, we derive some effective pruning rules to further reduce the number of propagated vertices.
+They do so by designing a color-propagation based algorithm which only explores the vertices within the 2-hop neighbors of the update-related and color-changed vertices. They then propose a novel color index to maintain some summary color information and, thus, bound the explored vertices within the neighbors of these vertices. Moreover, they derive some effective pruning rules to further reduce the number of propagated vertices.
 
-3. Improved Dynamic Graph Coloring (2020) - https://arxiv.org/pdf/1904.12427
+**2. Improved Dynamic Graph Coloring (2020) - https://arxiv.org/pdf/1904.12427**
 
 The authors’ two main contributions in this paper are:
 
