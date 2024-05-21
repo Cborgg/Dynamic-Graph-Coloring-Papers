@@ -1,6 +1,6 @@
 # Dynamic-Graph-Coloring-Papers
 
-**1. Effective and Efficient Dynamic Graph Coloring (2017) - http://www.vldb.org/pvldb/vol11/p338-yuan.pdf**
+**1. Effective and Efficient Dynamic Graph Coloring (2017) (ACM) - http://www.vldb.org/pvldb/vol11/p338-yuan.pdf**
 
 The main contributions are as follows:
 
@@ -10,7 +10,7 @@ Efficient Algorithm: They introduce an efficient color-propagation based algorit
 
 They do so by designing a color-propagation based algorithm which only explores the vertices within the 2-hop neighbors of the update-related and color-changed vertices. They then propose a novel color index to maintain some summary color information and, thus, bound the explored vertices within the neighbors of these vertices. Moreover, they derive some effective pruning rules to further reduce the number of propagated vertices.
 
-**2. Improved Dynamic Graph Coloring (2020) - https://arxiv.org/pdf/1904.12427**
+**2. Improved Dynamic Graph Coloring (2020) (ACM Transactions on Algorithms (TALG)) - https://arxiv.org/pdf/1904.12427**
 
 The authors’ two main contributions in this paper are:
 
@@ -18,7 +18,7 @@ New Algorithm for General Graphs: They present a new algorithm that significantl
 
 Deterministic Algorithm for Sparse Graphs: They introduce a deterministic algorithm for uniformly sparse graphs, which utilizes low out-degree orientations and a new data structure to maintain an O(α log^2 n)-coloring in amortized O(1) time for graphs of arboricity α, where α is a measure of the graph’s sparsity.
 
-**3. Dynamic Graph Coloring (2017) - https://arxiv.org/pdf/1708.09080**
+**3. Dynamic Graph Coloring (2017) (Springer) - https://arxiv.org/pdf/1708.09080**
 
 Here are the main findings of this paper:
 
